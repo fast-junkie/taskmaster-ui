@@ -1,3 +1,10 @@
+> __Note:__  
+> [PluralSight](https://www.pluralsight.com/courses/spring-framework-angular-building-spa): Building an SPA Using Spring Framework 6 and Angular  
+> by Kevin Cunningham  
+> 
+> A very fast-paced course... had to do a lot of finaglin' to keep everything on task (no pun intended).
+> In the end I actually needed to add an Angular `proxy` to keep the app inline.
+
 # TaskmasterUi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
