@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
 import { Task } from '../../task.model';
-import { TaskService } from '../../task.service';
+import { TaskService } from '../../services/task.service';
 
 @Component({
   selector: 'tm-task-form',

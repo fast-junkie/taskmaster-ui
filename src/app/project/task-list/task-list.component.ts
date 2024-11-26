@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AsyncPipe, DatePipe } from '@angular/common';
 
 import { Task } from '../../task.model';
-import { TaskService } from '../../task.service';
+import { TaskService } from '../../services/task.service';
 import { TaskFormComponent } from '../task-form/task-form.component';
 import { Observable } from 'rxjs';
 

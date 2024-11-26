@@ -1,14 +1,19 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { ProjectComponent } from './project/project.component';
+import { AuthService } from './services/auth.service';
 
 @Component({
   selector: 'tm-root',
   standalone: true,
-  imports: [RouterOutlet, ProjectComponent],
+  imports: [RouterOutlet, ProjectComponent, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Pluralsight';
+  constructor(public authService: AuthService) {}
+
+  logout() {
+    this.authService.logout();
+  }
 }
